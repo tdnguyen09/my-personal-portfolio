@@ -11,3 +11,4 @@ You can view the live version of my portfolio here:
 ## Features
     - Fully resposive design that adapts to various screen sizes.
     - Showcases key projects with live demo links and GitHub repositories
+    
