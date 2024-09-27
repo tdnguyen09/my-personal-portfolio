@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>My portfolio</title>
+</head>
+<body class="bg-slate-900 text-white font-mono">
+    <nav class="flex flex-row text-xl items-center justify-center gap-3 mb-10 mt-5 sm:flex sm:flex-row sm:items-start lg:justify-end lg:gap-x-10 lg:mr-36 lg:mt-5">
+        <a href="#about" class="border-solid border-2 border-transparent box-border rounded-full hover:border-white hover:bg-slate-800 hover:shadow-md hover:shadow-lime-300 w-28 h-8 text-center">About</a>
+        <a href="#skills" class="border-solid border-2 border-transparent box-border rounded-full hover:border-white hover:bg-slate-800 hover:shadow-md hover:shadow-lime-300 w-28 h-8 text-center">Skills</a>
+        <a href="#project" class="border-solid border-2 border-transparent box-border rounded-full hover:border-white hover:bg-slate-800 hover:shadow-md hover:shadow-lime-300 w-28 h-8 text-center">Projects</a>
+        <a href="#education" class="border-solid border-2 border-transparent box-border rounded-full hover:border-white hover:bg-slate-800 hover:shadow-md hover:shadow-lime-300 w-28 h-8 text-center">Education</a>
+    </nav>
+    <div class="p-10 pl-24 w-4/5 h-fit ml-auto mr-auto mb-20 border-2 border-dotted border-white flex flex-col gap-y-16">
+        <h2 class="text-3xl">Hi, my name is</h2>
+        <h1 class="text-indigo-500 text-7xl">T.D Nguyen</h1>
+        <h2 class="text-5xl text-indigo-400">A Full-Stack Web Developer</h2>
+        <div>
+            <p class="text-2xl">Email: tdnguyen0910@gmail.com</p>
+            <p class="text-2xl">Phone: <span>0413 228 701</span></p>
+        </div>
+        <div class="flex flex-row gap-x-10 items-center ml-10">
+            <a href="https://github.com/tdnguyen09" target="_blank"><img src="./github-mark-white.png" alt="github" class="w-12" /></a>
+            <a href="https://www.linkedin.com/in/td-nguyen-b31ba9328/" target="_blank"><img src="./LI-In-Bug.png" alt="linkedin" class="w-14" /></a>
+        </div>
+    </div>
+    <div id="about" class=" m-auto w-4/5 p-10 mb-20 text-white text-xl border-2 border-dotted border-white">
+        <p class="mb-5">I'm new to technology industry but I have a passtion to build dynamic, responsive, and user-friendly websites and applications and would love to explore new technology.</p>
+        <p class="mb-5">I enjoy building everything from small business websites to rich, interactive web applications. My expertise includes JavaScript, React, Flask, and SQL, and I love solving complex problems by creating scalable solutions.</p>
+        <p class="mb-5">My goal as a developer is to continue improve my skills while contributing to innovative projects that improve the way we interact with technology. I'm excited to work with teams that prioritize both clean code and user-focused design.</p>
+        <p>Check out some of my latest work below, or feel free to reach out if you'd like to collaborate!</p>
+    </div>
+    <div id="project" class="w-4/5 m-auto mb-20 p-10 border-2 border-dotted border-white">
+        <h3 class="text-4xl font-bold mb-10 text-indigo-300">Projects</h3>
+        <div>
+            <h3 class="text-3xl ">E-commerce website</h3>
+            <p class="mb-5">An intuitive e-commerce platform designed for shopping experiences.</p>
+            <ul class="list-disc ml-5 mb-5 mt-5">
+                <li><strong>Technologies:</strong> React for front-end and Flask for back-end.</li>
+                <li><strong>Key Features:</strong> user authentication, product filtering, managing products, shopping cart, and Stripe payment integration.</li>
+                <li><strong>Responsive design:</strong> Fully optimized for various screen sizes and devices.</li>
+            </ul>
+            <ul class="mb-5">
+                <li><a href="https://e-commerce-app-s5f4.onrender.com/" target="_blank" class="hover:text-lime-200">Live Front-end</a></li>
+                <li><a href="https://final-project-database.onrender.com/" target="_blank" class="hover:text-lime-200">API Back-end</a></li>
+            </ul>
+            <p>Github Repositories:</p>
+            <ul class="list-disc ml-5">
+                <li><a href="https://github.com/tdnguyen09/e-commerce-app" target="_blank" class="hover:text-lime-200">E-commerce website (Front-end)</a></li>
+                <li><a href="https://github.com/tdnguyen09/final-project-database" target="_blank" class="hover:text-lime-200">E-commerce website (Back-end)</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="skills" class="w-4/5 m-auto mb-20 p-10 border-2 border-dotted border-white">
+        <h3 class="text-4xl font-bold mb-10 text-indigo-300">Skills</h3>
+        <div class="grid grid-cols-2 gap-4 border-solid border-1 border-black m-auto p-5 sm:grid sm:grid-cols-3 sm:p-0 lg:grid lg:grid-cols-4 lg:gap-10">
+            <p class="flex flex-row rounded-full w-36 md:w-40 h-14 border-solid border-2 border-white shadow-md shadow-lime-300 bg-slate-700 items-center justify-start md:justify-center p-2 m-auto">
+                <img src="./react-logo.svg" alt="react-logo" class="w-14" /><span class="text-sm">React</span>
+            </p>
+            <p class="flex flex-row rounded-full w-36 md:w-40 h-14 border-solid border-2 border-white shadow-md shadow-lime-300 bg-slate-700 items-center justify-start md:justify-center p-2 m-auto">
+                <img src="./javascript.png" alt="javascript-logo" class="w-12" /><span class="text-sm" >Javascript</span>
+            </p>
+            <p class="flex flex-row rounded-full w-36 md:w-40 h-14 border-solid border-2 border-white shadow-md shadow-lime-300 bg-slate-700 items-center justify-start md:justify-center p-2 m-auto">
+                <img src="./html-5-logo.svg" alt="html-logo" class="w-12" /><span class="text-sm">HTML</span>
+            </p>
+            <p class="flex flex-row rounded-full w-36 md:w-40 h-14 border-solid border-2 border-white shadow-md shadow-lime-300 bg-slate-700 items-center justify-start md:justify-center p-2 m-auto">
+                <img src="css-3-logo.svg" alt="css-logo" class="w-12" /><span class="text-sm">CSS</span>
+            </p>
+            <p class="flex flex-row rounded-full w-36 md:w-40 h-14 border-solid border-2 border-white shadow-md shadow-lime-300 bg-slate-700 items-center justify-start md:justify-center p-2 m-auto">
+                <img src="./tailwind-svgrepo-com.svg" alt="tailwind-logo" class="w-12" /><span class="text-sm">Tailwind</span>
+            </p>
+            <p class="flex flex-row rounded-full w-36 md:w-40 h-14 border-solid border-2 border-white shadow-md shadow-lime-300 bg-slate-700 items-center justify-start md:justify-center p-2 m-auto">
+                <img src="python-logo.svg" alt="python-logo" class="w-12" /><span class="text-sm">Python</span>
+            </p>
+            <p class="flex flex-row rounded-full w-36 md:w-40 h-14 border-solid border-2 border-white shadow-md shadow-lime-300 bg-slate-700 items-center justify-start md:justify-center p-2 m-auto">
+                <img src="flask-logo.svg" alt="flas-logo" class="w-12" /><span class="text-sm">Flask</span>
+            </p>
+            <p class="flex flex-row  rounded-full w-36 md:w-40 h-14 border-solid border-2 border-white shadow-md shadow-lime-300 bg-slate-700 items-center md:justify-center justify-start p-2 m-auto">
+                <img src="sql-logo.svg" alt="sql-logo" class="w-12" /><span class="text-sm">SQL</span>
+            </p>
+            </div>
+    </div>
+    <div id="education" class="w-4/5 m-auto mb-20 p-10 border-2 border-dotted border-white">
+        <h3 class="text-4xl font-bold mb-10 text-in text-indigo-300">Education</h3>
+        <p class="text-2xl">Academyxi - Software Engineering: Transform</p>
+    </div>
+</body>
+</html>
