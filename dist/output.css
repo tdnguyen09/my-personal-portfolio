@@ -639,6 +639,22 @@ video {
   width: 80%;
 }
 
+.w-32 {
+  width: 8rem;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.w-56 {
+  width: 14rem;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
 .list-disc {
   list-style-type: disc;
 }
@@ -647,12 +663,20 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
 
 .flex-col {
   flex-direction: column;
+}
+
+.place-items-center {
+  place-items: center;
 }
 
 .items-center {
@@ -673,6 +697,10 @@ video {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .gap-x-10 {
@@ -814,6 +842,14 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.\[k\:\1Dwt10\FFFDz\1E\FFFD\E\FFFDJ\FFFD\FFFDu\FFFDm\11o\FFFD\FFFD\FFFD\FFFD\FFFD\FFFD\FFFD\#\FFFD\1C\FFFD\19\FFFD\FFFDz\FFFD\FFFD\FFFD a\FFFD\FFFD\FFFD\FFFD\1F\FFFD\^\FFFD\FFFD\FFFD\FFFDs\] {
+  k: wt10�z��J��u�mo�������#����z���a�����^����s;
+}
+
+.\[v\:\FFFD 2\FFFD\&\FFFD\1B\FFFD\FFFD\`H\FFFD 28R\\XT\FFFD\7\FFFD\] {
+  v: �2�&���`H�28R\XT��;
+}
+
 .hover\:border-white:hover {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
@@ -849,8 +885,16 @@ video {
     display: grid;
   }
 
+  .sm\:w-3\/5 {
+    width: 60%;
+  }
+
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .sm\:flex-row {
@@ -885,8 +929,20 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:grid {
+    display: grid;
+  }
+
   .md\:w-40 {
     width: 10rem;
+  }
+
+  .md\:w-4\/5 {
+    width: 80%;
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:justify-center {
